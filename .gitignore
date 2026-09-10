@@ -216,3 +216,27 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Project-specific generated files
+
+# Model artifacts
+*.h5
+*.keras
+*.ckpt
+checkpoints/
+
+# Large/generated datasets
+data/
+datasets/
+
+# Generated outputs
+outputs/
+artifacts/
+
+# IDEs
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
